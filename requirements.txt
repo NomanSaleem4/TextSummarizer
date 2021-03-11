@@ -1,2 +1,2 @@
-summy
+sumy
 streamlit
