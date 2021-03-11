@@ -13,7 +13,8 @@ import streamlit as st
 
 
 if __name__ == "__main__":
-
+    import nltk 
+    nltk.download('punkt')
     st.title('Text Summarizer App by DeepLearningPro')
     desc = "This App generates summary for the plain english text."
     st.write(desc)
